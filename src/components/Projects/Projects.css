@@ -1,0 +1,17 @@
+h4{
+    width: 0ch;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: text 8s steps(17) infinite alternate;
+    border-right: 3 solid white;
+    font-size: 60px;
+}
+@keyframes text{
+    0%{
+      width: 0ch ;
+       
+    }
+    50%{
+      width: 17ch;
+    }
+}
