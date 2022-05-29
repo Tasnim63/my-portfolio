@@ -1,6 +1,7 @@
 import  AOS  from 'aos';
 import React from 'react';
 import { Link } from 'react-router-dom';
+import About from '../About/About';
 import AllProjects from '../Projects/AllProjects';
 
 const Home = () => {
@@ -33,6 +34,7 @@ const Home = () => {
 </div>
 
         </div>
+        <About></About>
         <AllProjects></AllProjects>
      </>
     );
