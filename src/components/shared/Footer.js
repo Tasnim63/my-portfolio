@@ -11,7 +11,7 @@ const Footer = () => {
        
         </div> 
         <div class="grid grid-flow-col gap-4 text-white">
-          <p  className='text-white flex p-3  text-xl'><FaWhatsappSquare></FaWhatsappSquare></p> <span className='  text-2xl'>01742806419  || tamanna202163@gmail.com</span>
+          <p  className='text-white flex p-3  text-xl'><FaWhatsappSquare></FaWhatsappSquare></p> <span className='  text-2xl'>.......  || tamanna202163@gmail.com</span>
       
        
         </div>
