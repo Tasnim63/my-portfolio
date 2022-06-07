@@ -8,7 +8,7 @@ const AllProjects = () => {
             <div className=' lg:mx-28 lg:my-12  grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
                 <div  data-aos="fade-up"
      data-aos-duration="1500"   
-                    className="card w-96 bg-slate-500 my-10 mx-10">
+                    className="card w-96 bg-slate-500 my-10 mx-5">
                <figure><img src="https://img.freepik.com/free-photo/vegetables-set-left-black-slate_1220-685.jpg?size=626&ext=jpg&ga=GA1.2.270866342.1647831681" alt="Shoes" /></figure>
             <div className="card-body">
             <h2 className="card-title text-white font-serif font-bold">
@@ -31,7 +31,7 @@ const AllProjects = () => {
                      data-aos-easing="linear"
                       data-aos-duration="1500"
             
-                    className="card w-96 bg-slate-500 my-10 mx-10">
+                    className="card w-96 bg-slate-500 my-10 mx-5">
                <figure><img height={20}  src="https://img.freepik.com/free-psd/book-cover-mockup_125540-453.jpg?size=626&ext=jpg&uid=R64903934&ga=GA1.2.270866342.1647831681" alt="Shoes" /></figure>
             <div className="card-body">
             <h2 className="card-title text-white font-serif font-bold">
@@ -52,7 +52,7 @@ const AllProjects = () => {
                 <div
                     data-aos="fade-up"
                     data-aos-duration="1500" 
-                    className="card w-96 bg-slate-500 my-10 mx-10">
+                    className="card w-96 bg-slate-500 my-10 mx-5">
                <figure><img src="https://img.freepik.com/free-photo/groom-putting-ring-bride-s-finger_1157-338.jpg?size=626&ext=jpg&uid=R64903934&ga=GA1.2.270866342.1647831681" alt="Shoes" /></figure>
             <div className="card-body">
             <h2 className="card-title text-white font-serif font-bold">
