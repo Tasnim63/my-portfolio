@@ -1,36 +1,44 @@
-import React from 'react';
-import { useForm } from 'react-hook-form';
+import React from "react";
 
 const ContactForm = () => {
-    const { register, handleSubmit } = useForm();
-  const onSubmit = data => console.log(data);
-    return (
-        <div>
-            <form onSubmit={handleSubmit(onSubmit)} >
-                < div className="form-control w-96 mx-auto max-w-xs ">
-                <label className="label">
-                                <span className="label-text text-white font-bold text-xl">Name :</span>
-                            </label>
-                <input type='text' placeholder='Name' className=' p-2 bg-slate-800 text-white font-bold' {...register("Name")} />
-                <label className="label">
-                                <span className="label-text  text-white font-bold text-xl">Email :</span>
-                            </label>
-                <input type="text" className=' p-2 bg-slate-800 text-white font-bold' placeholder="Email" {...register("Email", { required: true, pattern: /^\S+@\S+$/i })} />
-                <label className="label">
-                                <span className="label-text  text-white font-bold text-xl">Subjects :</span>
-                            </label>
-                    <input type="text" className=' p-2 bg-slate-800 text-white font-bold' placeholder="subject" {...register("First name")} />
-                    <label className="label">
-                                <span className="label-text  text-white font-bold text-xl">Description :</span>
-                    </label>
-                    <textarea type="text" className=' p-2 bg-slate-800 text-white font-bold' placeholder="description" {...register("description")} />
-              
-                    <button    data-aos="zoom-in"
-              className="btn btn-outline btn-base-100 my-3 text-white">SUBMIT</button>
-                   </div>
-            </form>
-        </div>
-    );
+  return (
+    <div>
+      <form
+        action="https://formspree.io/f/xnqwrvvz"
+        method="POST"
+        className=" flex flex-col w-80 mx-auto p-6"
+      >
+        <input
+          className=" p-2 my-2"
+          type="text"
+          placeholder="Name"
+          name="name"
+          required
+        />
+        <input
+          name="Email"
+          className=" p-2 "
+          placeholder="Email"
+          type="text"
+          required
+        />
+        <input
+          name="description"
+          className="my-2 p-6"
+          placeholder="Description"
+          type="text"
+          required
+        />
+        <button
+          data-aos="zoom-in"
+          className="btn btn-outline btn-base-100 my-3 text-white"
+          type="submit"
+        >
+          Submit
+        </button>
+      </form>
+    </div>
+  );
 };
 
 export default ContactForm;

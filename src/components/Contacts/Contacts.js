@@ -7,7 +7,7 @@ const Contacts = () => {
       <div
         class="hero "
         style={{
-          height: 600,
+          height: 500,
           backgroundImage: `url(https://img.freepik.com/free-photo/top-view-laptop-mouse-with-technology-icons_1134-59.jpg?t=st=1653605900~exp=1653606500~hmac=a58330ebc540c6f03d226a24e521a8004e7016848bf7b66ed4a20de91870c16c&w=740)`,
         }}
       >
