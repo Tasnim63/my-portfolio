@@ -51,6 +51,7 @@ const Home = () => {
         </div>
       </div>
       <About></About>
+
       <AllProjects></AllProjects>
     </>
   );
