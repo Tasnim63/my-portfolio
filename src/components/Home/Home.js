@@ -1,6 +1,6 @@
 import AOS from "aos";
 import React from "react";
-
+import resume from "../../assets/resume/Tamanna.docx (5).pdf";
 import About from "../About/About";
 import AllProjects from "../Projects/AllProjects";
 import Skills from "./Skills";
@@ -37,20 +37,16 @@ const Home = () => {
               {" "}
               I'm Junior MERN-stack developer...
             </p>
-
-            <button
-              data-aos="zoom-in"
-              data-aos-delay="1300"
-              className="btn btn-outline btn-base-100 text-white"
-            >
-              <a
-                href="file:///C:/Users/tamanna/Downloads/Tamanna.docx%20(3).pdf"
-                download
+            <a href={resume} download>
+              <button
+                data-aos="zoom-in"
+                data-aos-delay="1300"
+                className="btn btn-outline btn-base-100 text-white"
               >
                 {" "}
                 Download Resume
-              </a>
-            </button>
+              </button>
+            </a>
           </div>
         </div>
       </div>
