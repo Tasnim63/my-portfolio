@@ -7,6 +7,7 @@ const About = () => {
         <div className="hero-content flex-col lg:flex-row">
           <img
             src="https://img.freepik.com/free-photo/coding-man_1098-19922.jpg?t=st=1653617245~exp=1653617845~hmac=7cce0f1e79dde1bfffaf8cc6cb311cad0154804fbb55323fecccfa4957a77706&w=1380"
+            alt="developer"
             className="max-w-screen-sm rounded-lg shadow-2xl"
           />
           <div className=" px-16">

@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+
 import CustomLink from "../../hooks/CustomLink";
 
 const Navbar = () => {
@@ -49,16 +49,16 @@ const Navbar = () => {
             >
               <ul class="p-2">
                 <li>
-                  <Link to="/home">Home</Link>
+                  <CustomLink to="/home">Home</CustomLink>
                 </li>
                 <li>
-                  <Link to="/projects">Projects</Link>
+                  <CustomLink to="/projects">Projects</CustomLink>
                 </li>
                 <li>
-                  <Link to="/about">About</Link>
+                  <CustomLink to="/about">About</CustomLink>
                 </li>
                 <li>
-                  <Link to="/contact">Contact</Link>
+                  <CustomLink to="/contact">Contact</CustomLink>
                 </li>
               </ul>
             </ul>
