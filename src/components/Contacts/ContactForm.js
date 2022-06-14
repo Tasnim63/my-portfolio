@@ -1,5 +1,7 @@
 import React from "react";
 
+import { BiSend } from "react-icons/bi";
+import "./ContactForm.css";
 const ContactForm = () => {
   return (
     <div>
@@ -34,7 +36,10 @@ const ContactForm = () => {
           className="btn btn-outline btn-base-100 my-3 text-white"
           type="submit"
         >
-          Submit
+          Submit{" "}
+          <p className="icon text-white mx-2 text-2xl">
+            <BiSend></BiSend>
+          </p>
         </button>
       </form>
     </div>

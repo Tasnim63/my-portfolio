@@ -14,7 +14,7 @@ const Contacts = () => {
         <div class="hero-overlay bg-opacity-60"></div>
         <div class="hero-content text-center text-neutral-content">
           <div class="max-w-md">
-            <h1 data-aos="zoom-in" class="mb-5 text-5xl font-bold">
+            <h1 data-aos="zoom-in" class="mb-5 text-5xl text-white font-bold">
               Lets Have a Chat
             </h1>
           </div>

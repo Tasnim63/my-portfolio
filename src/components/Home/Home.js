@@ -35,7 +35,7 @@ const Home = () => {
               className="mb-5 text-white text-2xl"
             >
               {" "}
-              I'm MERN-stack developer...
+              I'm Junior MERN-stack developer...
             </p>
 
             <button
