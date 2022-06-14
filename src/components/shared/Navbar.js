@@ -7,7 +7,9 @@ const Navbar = () => {
     <>
       <div class=" sticky top-0  z-50 navbar bg-gray-800 text-white font-serif">
         <div class="navbar ">
-          <a class="btn btn-ghost normal-case text-3xl">PORTFOLIO</a>
+          <a href="/home" class="btn btn-ghost normal-case text-3xl">
+            PORTFOLIO
+          </a>
         </div>
         <div class="navbar-end hidden lg:flex">
           <ul class="menu menu-horizontal font-bold p-0">
