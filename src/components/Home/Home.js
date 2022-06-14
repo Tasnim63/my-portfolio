@@ -26,7 +26,7 @@ const Home = () => {
               className="mb-5 text-5xl text-white font-bold"
             >
               {" "}
-              I AM TAMANNA
+              I AM galib
             </h1>
             <p
               data-aos="fade-right"
