@@ -112,7 +112,7 @@ const AllProjects = () => {
               Wedding Photographer
             </h2>
             <p className=" text-white">
-              html, CSS 3 ,React router ,React icons,React router hooks
+              html, CSS 3 ,React router ,React icons,React router hook
             </p>
             <div className="card-actions justify-end">
               <a href="https://independent-service-prov-60d93.web.app/">
