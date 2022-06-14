@@ -26,7 +26,7 @@ const Home = () => {
               className="mb-5 text-5xl text-white font-bold"
             >
               {" "}
-              I AM galib
+              I AM TAMANNA
             </h1>
             <p
               data-aos="fade-right"
@@ -43,9 +43,12 @@ const Home = () => {
               data-aos-delay="1300"
               className="btn btn-outline btn-base-100 text-white"
             >
-              <a href="https://drive.google.com/file/d/1Au30Db9ii9Xa8vrieO7UBncMRYgE3Uqm/view?usp=sharing">
+              <a
+                href="file:///C:/Users/tamanna/Downloads/Tamanna.docx%20(3).pdf"
+                download
+              >
                 {" "}
-                RESJUME VIEW
+                Download Resume
               </a>
             </button>
           </div>
