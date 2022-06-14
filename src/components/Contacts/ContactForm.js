@@ -26,7 +26,7 @@ const ContactForm = () => {
         />
         <input
           name="description"
-          className="my-2 p-6"
+          className="my-2 py-6 px-2"
           placeholder="Description"
           type="text"
           required

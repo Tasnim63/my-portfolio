@@ -103,7 +103,7 @@ const AllProjects = () => {
         >
           <figure>
             <img
-              src="https://img.freepik.com/free-photo/groom-putting-ring-bride-s-finger_1157-338.jpg?size=626&ext=jpg&uid=R64903934&ga=GA1.2.270866342.1647831681"
+              src="https://img.freepik.com/free-photo/top-view-picture-frame-with-flowers-light-background-couple-color-gift-present-valentines-day-love-feeling-marriage_140725-160730.jpg?t=st=1655202423~exp=1655203023~hmac=d713cb72154534085ca1276a50c7c24704aa8ca2ebb266d865d3404b15f9d2c9&w=1380"
               alt="Shoes"
             />
           </figure>
