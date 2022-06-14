@@ -1,6 +1,6 @@
 import AOS from "aos";
 import React from "react";
-import resume from "../../assets/resume/Tamanna.docx (5).pdf";
+import resume from "../../assets/resume/Tamanna.docx (6).pdf";
 import About from "../About/About";
 import AllProjects from "../Projects/AllProjects";
 import Skills from "./Skills";
