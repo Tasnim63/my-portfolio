@@ -3,6 +3,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import About from "../About/About";
 import AllProjects from "../Projects/AllProjects";
+import Skills from "./Skills";
 
 const Home = () => {
   AOS.init();
@@ -22,7 +23,7 @@ const Home = () => {
               data-aos="fade-right"
               data-aos-duration="1000"
               data-aos-delay="200"
-              className="mb-5 text-5xl font-bold"
+              className="mb-5 text-5xl text-white font-bold"
             >
               {" "}
               I AM TAMANNA
@@ -31,10 +32,10 @@ const Home = () => {
               data-aos="fade-right"
               data-aos-delay="400"
               data-aos-duration="900"
-              className="mb-5 text-2xl"
+              className="mb-5 text-white text-2xl"
             >
               {" "}
-              I'm React js developer...
+              I'm MERN-stack developer...
             </p>
 
             <button
@@ -51,7 +52,7 @@ const Home = () => {
         </div>
       </div>
       <About></About>
-
+      <Skills></Skills>
       <AllProjects></AllProjects>
     </>
   );
