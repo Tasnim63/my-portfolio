@@ -69,8 +69,8 @@ const AllProjects = () => {
               Doctors Home
             </h2>
             <p className=" text-white">
-              This is a website about Doctors. user can booked your appointments
-              and advice from doctors
+              This is my MERN stack projects. This is a website about Doctors.
+              user can booked your appointments and advice from doctors.
             </p>
 
             <div className="card-actions justify-end">
