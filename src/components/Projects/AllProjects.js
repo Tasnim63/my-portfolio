@@ -25,10 +25,10 @@ const AllProjects = () => {
             </h2>
             <p className=" text-white">
               {" "}
-              Users can maintain their products in all aspects. Users can store
-              their product information in the database.I have used Html , CSS ,
-              JavaScript , React , Tailwind , DaisyUi , Express Js , MongoDB for
-              make this web site.
+              This is my MERN stack projects. Users can store their product
+              information in the database.I have used Html , CSS , JavaScript ,
+              React , Tailwind , DaisyUi , Express Js , MongoDB for make this
+              web site.
             </p>
             <div className="card-actions justify-end">
               <a href="https://bagsq12.web.app/">
