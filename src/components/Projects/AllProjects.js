@@ -15,21 +15,23 @@ const AllProjects = () => {
         >
           <figure>
             <img
-              src="https://img.freepik.com/free-photo/vegetables-set-left-black-slate_1220-685.jpg?size=626&ext=jpg&ga=GA1.2.270866342.1647831681"
+              src="https://img.freepik.com/free-photo/blue-schoolchild-backpack-table_23-2148204808.jpg?size=626&ext=jpg&uid=R64903934&ga=GA1.2.270866342.1647831681"
               alt="Shoes"
             />
           </figure>
           <div className="card-body">
             <h2 className="card-title text-white font-serif font-bold">
-              MealDb
+              Bags_store
             </h2>
             <p className=" text-white">
               {" "}
-              I have made this website with 1.html and css 2. react icons.
-              3.react router hooks,bootstrap 5 and react router
+              Users can maintain their products in all aspects. Users can store
+              their product information in the database.I have used Html , CSS ,
+              JavaScript , React , Tailwind , DaisyUi , Express Js , MongoDB for
+              make this web site.
             </p>
             <div className="card-actions justify-end">
-              <a href="https://candid-meringue-550f66.netlify.app">
+              <a href="https://bagsq12.web.app/">
                 <button
                   data-aos="zoom-in"
                   data-aos-delay="1300"
@@ -38,7 +40,7 @@ const AllProjects = () => {
                   VIEW
                 </button>
               </a>
-              <a href="https://github.com/Tasnim63/-mealdb">
+              <a href="https://github.com/Tasnim63/bags-client">
                 {" "}
                 <button
                   data-aos="zoom-in"
@@ -85,6 +87,49 @@ const AllProjects = () => {
               </a>
 
               <a href=" https://github.com/Tasnim63/doctors-home">
+                <button
+                  data-aos="zoom-in"
+                  data-aos-delay="1500"
+                  className="btn btn-outline btn-base-100 text-white"
+                >
+                  SOURCE
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          data-aos="fade-up"
+          data-aos-duration="1500"
+          className="card w-96 bg-slate-500 my-10 mx-5"
+        >
+          <figure>
+            <img
+              src="https://img.freepik.com/free-photo/vegetables-set-left-black-slate_1220-685.jpg?size=626&ext=jpg&ga=GA1.2.270866342.1647831681"
+              alt="Shoes"
+            />
+          </figure>
+          <div className="card-body">
+            <h2 className="card-title text-white font-serif font-bold">
+              MealDb
+            </h2>
+            <p className=" text-white">
+              {" "}
+              I have made this website with 1.html and css 2. react icons.
+              3.react router hooks,bootstrap 5 and react router
+            </p>
+            <div className="card-actions justify-end">
+              <a href="https://candid-meringue-550f66.netlify.app">
+                <button
+                  data-aos="zoom-in"
+                  data-aos-delay="1300"
+                  className="btn btn-outline btn-base-100 text-white"
+                >
+                  VIEW
+                </button>
+              </a>
+              <a href="https://github.com/Tasnim63/-mealdb">
+                {" "}
                 <button
                   data-aos="zoom-in"
                   data-aos-delay="1500"
